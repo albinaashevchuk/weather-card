@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      
+     
+      h1 {
+        color: #293462;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        color: #d61c4e;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        color: #293462;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+       .weather-title {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .weather-item-min {
+        font-weight: lighter;
+      }
+      .weather-card {
+        padding: 0;
+      }
+.weather-card-item {
+        list-style: none;
+        text-align: center;
+        border-radius: 15px;
+        padding: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+        transition: all 200ms ease-in-out;
+      }
+      .weather-card-item:hover {
+        background-color: #fedb39;
+      }
+     
+
+      .btn-change-city {
+        display: block;
+        background-color: #d61c4e;
+        color: white;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 4px -1px 26px -7px rgba(0, 0, 0, 0.23);
+        border: thin;
+        cursor: pointer;
+      }
+      .btn-change-city:hover {
+        background-color: white;
+        color: #d61c4e;
+      }
+      .footer-author {
+        font-family: monospace;
+        text-align: center;
+        font-size: 18px;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="weather-title">
+      <h1>
+        🌤
+        <br />
+        Currently 23º in Vyshhorod
+      </h1>
+      <h2>
+        <span class="weather-item-min">13º</span>
+        /
+        <span class="weather-item-max"><strong>25º</strong></span>
+      </h2>
+    <ul class="weather-card">
+      <li class="weather-card-item">
+        <h3>🌤 Tomorrow</h3>
+        <p>15º / <strong>22º </strong></p>
+      </li>
+      <li class="weather-card-item">
+        <h3>⛈ Saturday</h3>
+        <p>15º / <strong>22º </strong></p>
+      </li>
+      <li class="weather-card-item">
+        <h3>🌦 Sunday</h3>
+        <p>15º / <strong>22º </strong></p>
+      </li>
+    </ul>
+    <button class="btn-change-city">Change City</button>
+    <p class="footer-author">Coded by Albina Shevchuk</p>
+
+   
+  </body>
+</html>
